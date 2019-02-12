@@ -4,7 +4,7 @@ This test project demonstrates a bug that exists with using nowPlayingMenuItem i
 
 ## Summary
 
-When nowPlayingMenuItem element is used in menuBarTemplate, and if you have ther menuItem elements coming after the nowPlayingMenuItem element, "select" events dispatched from these menuItem elements contain incorrect event targets after stating a second playback session.
+When nowPlayingMenuItem element is used in menuBarTemplate, and if you have other menuItem elements coming after the nowPlayingMenuItem element, "select" events dispatched from these menuItem elements contain incorrect event targets after stating a second playback session.
 
 ## Steps to Reproduce
 1. Run the project as you would run a TVML app (create an http server in the root folder). You might need to update App Transport Security settings in the project .plist file.
