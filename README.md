@@ -13,7 +13,9 @@ When nowPlayingMenuItem element is used in menuBarTemplate, and if you have othe
 1. Go back to document with menuBarTemplate. Navigate between menus. 
 
 ### Actual Result
-After second playback, we expect to see incorrect event targets are printed, the menuItem Element selected sent to the event listener is not correct. I am printing the target element content to the console where it can be observed
+After second playback, we see incorrect event targets are printed in console, event.target sent to the event listener is not correct. It shows the wrong menuItem Element as selected
+
+See console (Safari -> Developer -> Web Inspector for your simulator/device) for the target element content 
 
 ### Expected Result
 After second playback, we expect to see correct event target, the menuItem Element selected sent to the event listener. 
