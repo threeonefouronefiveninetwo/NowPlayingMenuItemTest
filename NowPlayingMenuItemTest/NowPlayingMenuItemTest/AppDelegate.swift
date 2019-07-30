@@ -2,8 +2,6 @@
 //  AppDelegate.swift
 //  NowPlayingMenuItemTest
 //
-//  Created by Kok, Mehmet on 2/11/19.
-//  Copyright © 2019 Kok, Mehmet. All rights reserved.
 //
 
 import UIKit
