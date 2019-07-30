@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F01D17B322DC1FFD007794B8 /* application.js in Resources */ = {isa = PBXBuildFile; fileRef = F06D78232211F5C0005478B6 /* application.js */; };
+		F01D17B622DC2081007794B8 /* images in Resources */ = {isa = PBXBuildFile; fileRef = F01D17B422DC2081007794B8 /* images */; };
+		F01D17B722DC2081007794B8 /* audio in Resources */ = {isa = PBXBuildFile; fileRef = F01D17B522DC2081007794B8 /* audio */; };
 		F06D78222211F5C0005478B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06D78212211F5C0005478B6 /* AppDelegate.swift */; };
 		F06D78252211F5C3005478B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06D78242211F5C3005478B6 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F01D17B422DC2081007794B8 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		F01D17B522DC2081007794B8 /* audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = audio; sourceTree = "<group>"; };
 		F06D781E2211F5C0005478B6 /* NowPlayingMenuItemTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NowPlayingMenuItemTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06D78212211F5C0005478B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F06D78232211F5C0005478B6 /* application.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = application.js; sourceTree = "<group>"; };
@@ -49,6 +54,8 @@
 		F06D78202211F5C0005478B6 /* NowPlayingMenuItemTest */ = {
 			isa = PBXGroup;
 			children = (
+				F01D17B522DC2081007794B8 /* audio */,
+				F01D17B422DC2081007794B8 /* images */,
 				F06D78212211F5C0005478B6 /* AppDelegate.swift */,
 				F06D78232211F5C0005478B6 /* application.js */,
 				F06D78242211F5C3005478B6 /* Assets.xcassets */,
@@ -114,7 +121,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F01D17B622DC2081007794B8 /* images in Resources */,
 				F06D78252211F5C3005478B6 /* Assets.xcassets in Resources */,
+				F01D17B322DC1FFD007794B8 /* application.js in Resources */,
+				F01D17B722DC2081007794B8 /* audio in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +198,7 @@
 				SDKROOT = appletvos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TVOS_DEPLOYMENT_TARGET = 12.1;
+				TVOS_DEPLOYMENT_TARGET = 12.2;
 			};
 			name = Debug;
 		};
@@ -241,7 +251,7 @@
 				SDKROOT = appletvos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				TVOS_DEPLOYMENT_TARGET = 12.1;
+				TVOS_DEPLOYMENT_TARGET = 12.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -252,6 +262,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E39XYEAA8P;
 				INFOPLIST_FILE = NowPlayingMenuItemTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -270,6 +281,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E39XYEAA8P;
 				INFOPLIST_FILE = NowPlayingMenuItemTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
